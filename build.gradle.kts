@@ -23,7 +23,7 @@ subprojects {
 
     val subProject = this
 
-    subProject.group = "eu.rigeldev.kuberig.dsl.kubernetes"
+    subProject.group = "eu.rigeldev.kuberig.dsl.openshift"
     subProject.version = project.version
 
     repositories {
