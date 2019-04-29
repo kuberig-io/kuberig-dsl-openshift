@@ -109,14 +109,14 @@ public class DslProjectsGeneratorTask extends DefaultTask {
                         );
                         Files.write(readmeFile.toPath(), readmeLines, StandardCharsets.UTF_8);
 
-                        Path mainBuildGradleKts = Paths.get("build.gradle.kts");
+                        Path settingsGradleKts = Paths.get("settings.gradle.kts");
 
-                        final List<String> mainBuildGradleKtsLines = Files.readAllLines(mainBuildGradleKts, StandardCharsets.UTF_8);
+                        final List<String> settingsGradleKtsLines = Files.readAllLines(settingsGradleKts, StandardCharsets.UTF_8);
 
                         final String lineToAdd = "include(\"" + moduleName + "\")";
 
-                        if (!mainBuildGradleKtsLines.contains(lineToAdd)) {
-                            Files.write(mainBuildGradleKts, lineToAdd.getBytes(StandardCharsets.UTF_8), StandardOpenOption.APPEND);
+                        if (!settingsGradleKtsLines.contains(lineToAdd)) {
+                            Files.write(settingsGradleKts, lineToAdd.getBytes(StandardCharsets.UTF_8), StandardOpenOption.APPEND);
                         }
 
                     } else {

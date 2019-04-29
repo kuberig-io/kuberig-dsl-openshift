@@ -24,5 +24,3 @@ include("kuberig-dsl-openshift-v3.10.0")
 include("kuberig-dsl-openshift-v3.11.0-alpha.0")
 include("kuberig-dsl-openshift-v3.11.0")
 include("kuberig-dsl-openshift-v4.0.0-alpha.0")
-
-includeBuild("/home/teyckmans/work/rigeldev/code/kuberig/kuberig-dsl")
