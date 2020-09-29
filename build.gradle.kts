@@ -1,17 +1,26 @@
 import com.jfrog.bintray.gradle.BintrayExtension
+import io.kuberig.dsl.vanilla.plugin.KubeRigDslVanillaPluginExtension
+import io.kuberig.dsl.vanilla.plugin.SemVersion
 
 buildscript {
     repositories {
         jcenter()
+        maven("https://dl.bintray.com/teyckmans/rigeldev-oss-maven")
     }
     dependencies {
         classpath("com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4")
         classpath("eu.rigeldev.kuberig:kuberig-dsl-generator-gradle-plugin:0.0.21")
+        classpath("io.kuberig.dsl.vanilla.plugin:kuberig-dsl-vanilla-plugin:0.1.1")
     }
 }
 
-plugins {
-    id("dsl-projects-generator-plugin")
+apply(plugin = "io.kuberig.dsl.vanilla.plugin")
+
+configure<KubeRigDslVanillaPluginExtension> {
+    gitHubOwner = "openshift"
+    gitHubRepo = "origin"
+    startVersion = SemVersion(3, 9, 0)
+    swaggerLocation = "api/swagger-spec/openshift-openapi-spec.json"
 }
 
 subprojects {
