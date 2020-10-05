@@ -1,6 +1,6 @@
 [![KubeRig Logo](https://github.com/teyckmans/kuberig/blob/master/docs/images/website_logo_transparent_background.png)](https://github.com/teyckmans/kuberig)
 
-[![buddy pipeline](https://app.buddy.works/rigeldev/kuberig-dsl-openshift/pipelines/pipeline/281755/badge.svg?token=510082a4eefd24375f16aca82e81379d132451ac153bd488e8d7f5ed0f31311e "buddy pipeline")](https://app.buddy.works/rigeldev/kuberig-dsl-openshift/pipelines/pipeline/281755)
+[![teyckmans](https://circleci.com/gh/teyckmans/kuberig-dsl-openshift.svg?style=svg)](https://app.circleci.com/pipelines/github/teyckmans/kuberig-dsl-openshift)
 
 # kuberig-dsl-kubernetes
 
