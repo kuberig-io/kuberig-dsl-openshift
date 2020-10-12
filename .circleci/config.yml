@@ -11,21 +11,6 @@ workflows:
           context:
             - kuberig-context
             - docker-hub-creds
-  upstream-and-availability-sync-scheduled:
-    triggers:
-      - schedule:
-          # https://crontab.guru/#0_0-23_*_*_*
-          # every hour
-          cron: "0 0-23 * * *"
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - upstream-and-availability-sync:
-          context:
-            - kuberig-context
-            - docker-hub-creds
 
 jobs:
   upstream-and-availability-sync:
