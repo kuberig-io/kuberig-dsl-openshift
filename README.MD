@@ -1,6 +1,6 @@
-[![KubeRig Logo](https://github.com/teyckmans/kuberig/blob/master/docs/images/website_logo_transparent_background.png)](https://kuberig.io)
+[![KubeRig Logo](https://github.com/teyckmans/kuberig-io/blob/master/docs/images/website_logo_transparent_background.png)](https://kuberig.io)
 
-[![teyckmans](https://circleci.com/gh/teyckmans/kuberig-dsl-openshift.svg?style=svg)](https://app.circleci.com/pipelines/github/teyckmans/kuberig-dsl-openshift)
+[![kuberig-io](https://circleci.com/gh/kuberig-io/kuberig-dsl-openshift.svg?style=svg)](https://app.circleci.com/pipelines/github/kuberig-io/kuberig-dsl-openshift)
 
 # kuberig-dsl-kubernetes
 
@@ -16,4 +16,4 @@ You can check the DslProjectsGeneratorTask in the buildSrc for more details.
 
 ## Versioning
 
-This project follows the version of the https://github.com/teyckmans/kuberig-dsl project.
+This project follows the version of the https://github.com/kuberig-io/kuberig-dsl project.
