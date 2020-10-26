@@ -8,4 +8,3 @@
 | v4.2.0 | rigeldev-oss-maven, jcenter | [kuberig-dsl-openshift-v4.2.0](https://bintray.com/teyckmans/rigeldev-oss-maven/io-kuberig-kuberig-dsl-openshift-v4.2.0) |
 | v4.3.0 | rigeldev-oss-maven, jcenter | [kuberig-dsl-openshift-v4.3.0](https://bintray.com/teyckmans/rigeldev-oss-maven/io-kuberig-kuberig-dsl-openshift-v4.3.0) |
 | v4.4.0 | rigeldev-oss-maven, jcenter | [kuberig-dsl-openshift-v4.4.0](https://bintray.com/teyckmans/rigeldev-oss-maven/io-kuberig-kuberig-dsl-openshift-v4.4.0) |
-| v4.5.0 | rigeldev-oss-maven, jcenter | [kuberig-dsl-openshift-v4.5.0](https://bintray.com/teyckmans/rigeldev-oss-maven/io-kuberig-kuberig-dsl-openshift-v4.5.0) |
