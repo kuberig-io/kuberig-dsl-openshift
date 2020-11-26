@@ -30,4 +30,5 @@ include("kuberig-dsl-openshift-v4.1.0")
 include("kuberig-dsl-openshift-v4.2.0")
 include("kuberig-dsl-openshift-v4.3.0")
 include("kuberig-dsl-openshift-v4.4.0")
-//include("kuberig-dsl-openshift-v4.5.0")
+//include("kuberig-dsl-openshift-v4.5.0") openapi spec was NOT updated in the upstream repo.
+include("kuberig-dsl-openshift-v4.6.0")
