@@ -4,7 +4,7 @@
 
 # kuberig-dsl-kubernetes
 
-This project contains the vanilla OpenShift DSL generator projects.
+This project contains the vanilla OpenShift DSL generator projects for [Kuberig](https://kuberig.io).
 
 ## Details
 
